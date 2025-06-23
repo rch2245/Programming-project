@@ -122,6 +122,7 @@ void displayEnergyDrinkStats() {
 
 int main()
 {
+	//Call functions here
 	displayOceanRise();
 	displayDistancePerTank();
 	displayEnergyDrinkStats();
