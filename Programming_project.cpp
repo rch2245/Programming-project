@@ -83,26 +83,30 @@ void displayDistancePerTank() {
 	std::cout << "The distance the car can travel in town is " << townDistance << " miles." << std::endl;
 	std::cout << "The distance the car can travel on the highway is " << highwayDistance << " miles." << std::endl;
 }
+// Analysis
+//Input â€“
+//Total surveyed customers: 16,500
+//Percent who buy energy drinks: 15%
+// Percent of energy drink buyers who prefer citrus flavor: 58%
 
-//AnalysisInput –
-//• Total surveyed customers : 16, 500
-//• Percent who buy energy drinks : 15 %
-//• Percent of energy drink buyers who prefer citrus flavor : 58 % Output –
-//• Number of customers who buy energy drinks
-//• Number of customers who prefer citrus flavor
-//FUNCTION displayEnergyDrinkStats
-//totalCustomers = 16500
-//percentBuyers = 15
-//percentCitrus = 58
-//
-//energyDrinkBuyers = totalCustomers * percentBuyers / 100
-//citrusDrinkers = energyDrinkBuyers * percentCitrus / 100
-//
-//write "Approximate number of energy drink buyers: ", energyDrinkBuyers
-//write "Approximate number of citrus flavor drinkers: ", citrusDrinkers
-//END FUNCTION
-//
-//CALL displayEnergyDrinkStats
+//Output â€“
+//Number of customers who buy energy drinks
+//Number of customers who prefer citrus flavor
+
+// FUNCTION displayEnergyDrinkStats
+//     totalCustomers = 16500
+//     percentBuyers = 15
+//     percentCitrus = 58
+
+//     energyDrinkBuyers = totalCustomers * percentBuyers / 100
+//     citrusDrinkers = energyDrinkBuyers * percentCitrus / 100
+
+//     write "Approximate number of energy drink buyers: ", energyDrinkBuyers
+//     write "Approximate number of citrus flavor drinkers: ", citrusDrinkers
+// END FUNCTION
+
+// CALL displayEnergyDrinkStats
+
 
 // Function to calculate and display energy drink statistics
 void displayEnergyDrinkStats() {
