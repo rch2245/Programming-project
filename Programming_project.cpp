@@ -101,8 +101,8 @@ void displayDistancePerTank() {
 //     energyDrinkBuyers = totalCustomers * percentBuyers / 100
 //     citrusDrinkers = energyDrinkBuyers * percentCitrus / 100
 
-//     write "Approximate number of energy drink buyers: ", energyDrinkBuyers
-//     write "Approximate number of citrus flavor drinkers: ", citrusDrinkers
+//     write "The number of energy drink buyers: ", energyDrinkBuyers
+//     write "The number of citrus flavor drinkers: ", citrusDrinkers
 // END FUNCTION
 
 // CALL displayEnergyDrinkStats
