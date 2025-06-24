@@ -37,7 +37,7 @@ void displayOceanRise() {
 	// loop through the each year and calculate the rise
 	for (int year : years) {
 		double rise = oceanRiseRate * year;
-		std::cout << "The ocean level will rise to " << rise << " millimeters" << " in " << year << " years" << std::endl;
+		std::cout << "The ocean level will rise to " << rise << " millimeters in " << year << " years" << std::endl;
 	}
 }
 
